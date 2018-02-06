@@ -21,14 +21,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        //ft.setBreadCrumbTitle("Frag" + mStackLevel);
-        ft.replace(R.id.simple_fragment, newFragment);
-        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-        ft.addToBackStack(null);
-        ft.commit();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -47,12 +39,6 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_notifications:
                     mTextMessage.setText("Images");
-                    return true;
-                case R.id.navigation_notifications2:
-                    mTextMessage.setText("Our Story");
-                    return true;
-                case R.id.navigation_notifications3:
-                    mTextMessage.setText("Profile");
                     return true;
             }
             return false;
