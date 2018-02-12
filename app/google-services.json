@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "10111880977",
+    "firebase_url": "https://l-amour-app.firebaseio.com",
+    "project_id": "l-amour-app",
+    "storage_bucket": "l-amour-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10111880977:android:e64b863dafb0522c",
+        "android_client_info": {
+          "package_name": "com.example.team.lamour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10111880977-jtsc2c9okp5fcui4mabolkn6vl2cbc1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.team.lamour",
+            "certificate_hash": "23815a1f8164b86eee4b0d22e7487d7cc6a74f72"
+          }
+        },
+        {
+          "client_id": "10111880977-vhojcu4tqcdprgm4blld16dep6k806kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7GrA5ifB1x3KrYVtAaDEqDt2wNEnoLOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10111880977-vhojcu4tqcdprgm4blld16dep6k806kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
